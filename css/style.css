@@ -42,6 +42,7 @@ img { max-width: 100%; display: block; }
 }
 
 .logo {
+  display: inline-block;
   max-width: 220px;
   margin: 0 auto 6px;
   border-radius: var(--radius-lg);
@@ -50,6 +51,10 @@ img { max-width: 100%; display: block; }
 }
 
 .logo img { width: 100%; }
+
+.site-header.compact .logo {
+  max-width: 120px;
+}
 
 .tagline {
   color: var(--text-soft);
